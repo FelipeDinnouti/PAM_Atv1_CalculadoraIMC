@@ -14,17 +14,24 @@ Entre no diretório do repositório
 cd PAM_Atv2_CalculadoraIMC
 ```
 
-Baixe as dependencias
+Baixe as dependências
 
 ```bash
 npm install
 npm install -g expo-cli
 ```
 
-Rodando o expo (ainda no diretório do projeto)
+Rodando o expo, aplicativo que permite debugar e buildar para iOS e Android
+(ainda no diretório do projeto)
 
 ```bash
 npx expo start --tunnel
 ```
 
-Escaneie o QR-Code no seu celular usando o aplicativo "Expo Go"
+Caso ele peça para instalar ngrok, digite "y" e aperte enter.
+
+Escaneie o QR-Code (talvez esteja em cima no terminal) no seu celular usando o aplicativo "Expo Go", e estará rodando!
+
+### Features
+
+Além da base de calcular IMC e o peso ideal, o aplicativo também faz a verificação de validez no input do usuário e tem uma animação sempre que o usuário aperta o botão.

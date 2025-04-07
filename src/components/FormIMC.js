@@ -104,7 +104,11 @@ const FormIMC = () => {
             {error(heightError)}
             <View style={styles.button}><Button title="Calcular IMC" color = "#20489f" borderRadius={16} borderWidth={1} borderColor = "#fff" onPress={calcularIMC}/></View>
             
+            {/* NÃO CITEI ISSO NO VÍDEO mas é importante ressaltar que nos casos de renderização condicional, 
+            é bem recomendado usar operador ternário do que simplesmente um and, porque senão é comum dar um erro que joga uma exception*/}
             {(imc && minWeight && maxWeight && (isFinite(imc))) ? <Result imc={imc} classification={classification} minWeight={minWeight} maxWeight={maxWeight}/> : null} 
+            
+            {/* easter egg pra voce (não sei se da pra fazer isso aparecer)*/}
             {!isFinite(imc) ? <Text style={styles.segredinho}>Imc infinito? RECEBILL!</Text> : null}
         </View>
     );

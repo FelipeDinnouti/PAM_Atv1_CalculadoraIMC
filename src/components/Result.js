@@ -22,12 +22,12 @@ const Result = ({ imc, classification, minWeight, maxWeight }) => {
         <Animated.View style={[styles.result, { 
           transform: [{scaleY: expandAnim.interpolate({
             inputRange: [0,1], 
-            outputRange: [0.2,1], // O tamanho mínimo (inicial) é 20%
+            outputRange: [-0.4,1], // O tamanho mínimo (inicial) é -40%
           })}] 
           }]}>
           <Text style={styles.result}>Seu IMC é: {imc}</Text>
-          {classification && <Classification res={classification}/>}
-          {(minWeight && maxWeight) && <IdealWeight min={minWeight} max={maxWeight}/>}
+          {classification ? <Classification res={classification}/> : null}
+          {(minWeight && maxWeight) ? <IdealWeight min={minWeight} max={maxWeight}/>: null}
         </Animated.View>
     );
 };
