@@ -5,7 +5,7 @@
 Para baixar o repositório, utilize o comando
 
 ```bash
-git clone https://github.com/FelipeDinnouti/PAM_Atv2_CalculadoraIMC.git
+git clone https://github.com/FelipeDinnouti/PAM_Atv1_CalculadoraIMC.git
 ```
 
 Entre no diretório do repositório
