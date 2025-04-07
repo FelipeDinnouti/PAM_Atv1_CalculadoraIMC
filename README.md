@@ -1,5 +1,10 @@
 ## Instruções quanto ao uso do projeto
 
+### Requisitos
+
+[NodeJS](https://nodejs.org/en) instalado na máquina.
+
+
 ### Instalação 
 
 Para baixar o repositório, utilize o comando
@@ -35,3 +40,7 @@ Escaneie o QR-Code (talvez esteja em cima no terminal) no seu celular usando o a
 ### Features
 
 Além da base de calcular IMC e o peso ideal, o aplicativo também faz a verificação de validez no input do usuário e tem uma animação sempre que o usuário aperta o botão.
+
+### Link do vídeo explicativo
+
+https://drive.google.com/file/d/1THoFktfMkc8q3J_FrUonS-qpa3nDLK75/view?usp=sharing
