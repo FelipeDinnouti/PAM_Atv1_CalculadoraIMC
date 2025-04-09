@@ -16,7 +16,7 @@ git clone https://github.com/FelipeDinnouti/PAM_Atv1_CalculadoraIMC.git
 Entre no diretório do repositório
 
 ```bash
-cd PAM_Atv2_CalculadoraIMC
+cd PAM_Atv1_CalculadoraIMC
 ```
 
 Baixe as dependências
